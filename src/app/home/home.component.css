@@ -1,0 +1,294 @@
+.top-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(71,233,92);
+    background: linear-gradient(74deg, rgba(71,233,92,0.7819502801120448) 10%, rgba(12,192,240,0.5802696078431373) 91%);
+}
+.marg{
+    margin: 20px;
+}
+.button-top{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+    margin: 10px;
+    background-color: orangered;
+    color:white;
+    border-radius: 5px ;
+    border: none;
+}
+.button-top:hover{
+    transform: scale(1.1);
+    background: rgb(236,37,37);
+    background: linear-gradient(74deg, rgba(236,37,37,0.8799894957983193) 10%, rgba(246,27,27,0.5802696078431373) 91%);
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color:white;
+    padding: 0.3rem ;
+}
+.nav-button{
+    padding: 7px 18px 7px 18px;
+    font-size: 17px;
+    background-color:rgb(240, 101, 101);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.nav-button:hover{
+    transform: scale(1.1);
+    background-color: rgb(245, 88, 88);
+}
+.wallpaper{
+    margin: 0.5rem;
+}
+.wallpaper-1{
+    width: 100%;
+    height: 16rem;
+    border-radius: 25px;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.product-box-1{
+    background-color:rgb(241, 203, 168) ;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px 10px 0px;
+
+}
+.texbox1{
+    background-color: orangered;
+    color: honeydew;
+    margin:11rem 3rem 11rem 3rem;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 10px double rgb(21, 41, 223);
+}
+.product-box-2{
+    background-color:rgb(241, 203, 168) ;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.product-box-3{
+    background-color:rgb(241, 203, 168) ;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:min-content;
+    background-color: white;
+    border-radius: 1rem;
+    overflow: hidden;
+    padding: 0.5rem;
+}
+.buy2-button{
+    background-color: rgb(54, 173, 143);
+    padding: 0.4rem 1.5rem 0.4rem 1.5rem;
+    margin-top: 15px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+}
+.buy2-button:hover{
+    background-color: forestgreen;
+    transform: scale(1.1);
+}
+.buttonhome{
+    background-color: orangered;
+    color: honeydew;
+    /* margin:11rem 3rem 11rem 3rem; */
+    font-size: 20px;
+    border-radius: 5px;
+    border: 10px double rgb(21, 41, 223);
+}
+.buttonhome1{
+    background-color: orangered;
+    color: honeydew;
+    /* margin:11rem 3rem 11rem 3rem; */
+    font-size: 20px;
+    border-radius: 5px;
+    border: 10px double rgb(21, 41, 223);
+}
+.buttonhome2{
+    background-color: orangered;
+    color: honeydew;
+    margin-top: 20px;
+    /* margin:11rem 3rem 11rem 3rem; */
+    font-size: 20px;
+    border-radius: 5px;
+    border: 10px double rgb(21, 41, 223);
+}
+.buy4-button{
+    background-color: rgb(54, 173, 143);
+    padding: 0.4rem 1.5rem 0.4rem 1.5rem;
+    margin-top: 95px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+}
+.buy4-button:hover{
+    background-color: forestgreen;
+    transform: scale(1.1);
+}
+.buy5-button{
+    background-color: rgb(54, 173, 143);
+    padding: 0.4rem 1.5rem 0.4rem 1.5rem;
+    margin-top: 95px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+}
+.buy5-button:hover{
+    background-color: forestgreen;
+    transform: scale(1.1);
+}
+.buy6-button{
+    background-color: rgb(54, 173, 143);
+    padding: 0.4rem 1.5rem 0.4rem 1.5rem;
+    margin-top: 15px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+}
+.buy6-button:hover{
+    background-color: forestgreen;
+    transform: scale(1.1);
+}
+.texbox2{
+    background-color: orangered;
+    color: honeydew;
+    margin:12rem 3rem 12rem 3rem;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 10px double rgb(21, 41, 223);
+}
+.texbox3{
+    background-color: orangered;
+    color: honeydew;
+    margin:13.5rem 3rem 13.5rem 3rem;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 10px double rgb(21, 41, 223);
+}
+.buy-button{
+    background-color: rgb(54, 173, 143);
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    margin-top: 65px;
+    border-radius: 25px;
+    border: none;
+}
+.buy-button:hover{
+    background-color: forestgreen;
+    transform: scale(1.1);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(236,37,37);
+    background: linear-gradient(74deg, rgba(236,37,37,0.8799894957983193) 10%, rgba(246,27,27,0.5802696078431373) 91%);
+}
+.stayl-footer{
+   color: rgb(66, 25, 180);
+   font-size: 20px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}

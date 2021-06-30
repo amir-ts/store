@@ -1,0 +1,137 @@
+.top-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(71,233,92);
+    background: linear-gradient(74deg, rgba(71,233,92,0.7819502801120448) 10%, rgba(12,192,240,0.5802696078431373) 91%);
+}
+.marg{
+    margin: 20px;
+}
+.button-top{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+    margin: 10px;
+    background-color: orangered;
+    color:white;
+    border-radius: 5px ;
+    border: none;
+}
+.button-top:hover{
+    transform: scale(1.1);
+    background: rgb(236,37,37);
+    background: linear-gradient(74deg, rgba(236,37,37,0.8799894957983193) 10%, rgba(246,27,27,0.5802696078431373) 91%);
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color:white;
+    border: 5px double blue;
+}
+.nav-button{
+    padding: 10px 23px 10px 23px;
+    font-size: 20px;
+    background-color:rgb(240, 101, 101);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.wallpaper{
+    margin: 0.5rem;
+}
+.wallpaper-1{
+    width: 100%;
+    height: 16rem;
+    border-radius: 25px;
+}
+
+.product-box-1{
+    background-color:rgb(241, 203, 168) ;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px 10px 0px;
+
+}
+.product-box-2{
+    background-color:rgb(241, 203, 168) ;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:min-content;
+    background-color: white;
+    border-radius: 1rem;
+    overflow: hidden;
+    padding: 0.5rem;
+}
+.buy-button{
+    background-color: rgb(54, 173, 143);
+    padding: 0.4rem 1.5rem 0.4rem 1.5rem;
+    margin-top: 15px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+}
+.buy-button:hover{
+    background-color: forestgreen;
+    transform: scale(1.1);
+}
+.buy2-button{
+    background-color: rgb(54, 173, 143);
+    padding: 0.4rem 1.5rem 0.4rem 1.5rem;
+    margin-top: 25px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+}
+.buy2-button:hover{
+    background-color: forestgreen;
+    transform: scale(1.1);
+}
+.buy3-button{
+    background-color: rgb(54, 173, 143);
+    padding: 0.4rem 1.5rem 0.4rem 1.5rem;
+    margin-top: 35px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+}
+.txe-boy3{
+    margin-top: 30px;
+}
+.buy3-button:hover{
+    background-color: forestgreen;
+    transform: scale(1.1);
+}
+.buy4-button{
+    background-color: rgb(54, 173, 143);
+    padding: 0.4rem 1.5rem 0.4rem 1.5rem;
+    margin-top: 55px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+}
+.buy4-button:hover{
+    background-color: forestgreen;
+    transform: scale(1.1);
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(236,37,37);
+    background: linear-gradient(74deg, rgba(236,37,37,0.8799894957983193) 10%, rgba(246,27,27,0.5802696078431373) 91%);
+}
+.stayl-footer{
+   color: rgb(66, 25, 180);
+   font-size: 20px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}

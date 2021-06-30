@@ -1,0 +1,19 @@
+<div class="login">
+    <h1  class="heading">
+        login
+    </h1>
+    <form >
+        <input [(ngModel)]="username" name="username" class="inputs" type="text" placeholder="username">
+        <input [(ngModel)]="password" name="password" class="inputs" type="password" placeholder="password">
+        <div class="checkbox">
+            <input type="checkbox" name="remember">
+            <label for="remember">remember me</label>
+        </div>
+        <input class="submit" type="submit" value="submit" (click)="sendData()">
+        <br>
+        <a class="stayl" href="/forget-password">
+            I forgot my password
+        
+        </a>
+    </form>
+</div>

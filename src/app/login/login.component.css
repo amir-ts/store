@@ -1,0 +1,46 @@
+.login{
+    margin: 8rem 12rem 6rem 12rem ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    padding:0px 0px 10px 0px ;
+    background-color: rgba(255, 255, 255, 0.158);
+    /* border: 5px dotted white; */
+    /* border: 10px; */
+    /* border-style: dotted dashed solid double; */
+}
+.heading{
+    padding-top: 20px;
+}
+.inputs{
+    text-align: center;
+    background-color: white;
+    padding: 10px 0px 10px 0px;
+    margin: 10px;
+    width: 50%;
+    border: none;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.checkbox{
+    margin: 10px;
+}
+.submit{
+    background-color: #f2400a91 ; 
+    padding: 13px 0px 13px 0px;
+    margin: 10px;
+    width: 50%;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.submit:hover{
+    background: rgb(227,146,47);
+    background: linear-gradient(74deg, rgba(227,146,47,0.7987570028011204) 38%, rgba(218, 68, 30, 0.933) 61%);
+    transform: scale(1.1); 
+}
+.stayl{
+    color:rgb(10, 129, 119);
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
