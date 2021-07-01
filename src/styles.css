@@ -3,5 +3,10 @@ body{
     background: linear-gradient(74deg, rgba(227,146,47,0.7987570028011204) 38%, rgba(205,90,62,0.9332107843137255) 61%);
     font-family: serif;
 }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body { 
+    height: 100%; 
+}
+body { 
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
