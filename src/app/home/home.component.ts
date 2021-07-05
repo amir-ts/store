@@ -17,6 +17,6 @@ export class HomeComponent implements OnInit {
   }
   
   alerter(){ //this is a method that we use to alert
-    alert("به فروشگاه من خوش آمدید")
+    alert("به سورن شاپ خوش آمدید")
   } 
 }
