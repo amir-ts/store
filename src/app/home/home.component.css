@@ -149,13 +149,21 @@
     margin: 10px 0px 10px 0px;
 
 }
-.texbox1{
-    background-color: orangered;
-    color: honeydew;
-    margin:11rem 3rem 11rem 3rem;
-    font-size: 20px;
-    border-radius: 5px;
-    border: 10px double rgb(21, 41, 223);
+.textbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 0rem 10rem 0rem;
+    background-color: rgb(233, 95, 95);
+    border-radius: 100%;
+    width: 12rem;
+    height: 12rem;
+    font-size: 2rem !important;
+    border: none;
+}
+.textbox:hover{
+    transition-duration: 150ms;
+    transform: translate(0, 1rem);
 }
 .product-box-2{
     background-color:rgb(241, 203, 168) ;
@@ -287,7 +295,7 @@
     background: rgb(236,37,37);
     background: linear-gradient(74deg, rgba(236,37,37,0.8799894957983193) 10%, rgba(246,27,27,0.5802696078431373) 91%);
 }
-.footer-link{
+.stayl-footer{
    color: rgb(66, 25, 180);
    font-size: 20px;
    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
