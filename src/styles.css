@@ -1,7 +1,14 @@
 body{
     background: rgb(227,146,47);
     background: linear-gradient(74deg, rgba(227,146,47,0.7987570028011204) 38%, rgba(205,90,62,0.9332107843137255) 61%);
-    font-family: serif;
+}
+h1{
+    font-family: 'Scheherazade', serif !important;
+    font-size: 2rem !important;
+}
+h2, p, button{
+    font-family: 'Scheherazade', serif !important;
+    font-size: 1.5rem !important;
 }
 html, body { 
     height: 100%; 
