@@ -10,13 +10,12 @@ export class HomeComponent implements OnInit {
   constructor() { 
   }
   
-  ngOnInit(): void { //ngOnInit is a method which runs at the start of the componennt
-    // void stops the method from having a return
+  ngOnInit(): void {
     this.alerter()
     
   }
   
-  alerter(){ //this is a method that we use to alert
+  alerter(){
     alert("به سورن شاپ خوش آمدید")
   } 
 }
